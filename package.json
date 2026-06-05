@@ -1,0 +1,36 @@
+{
+  "name": "typescript-foundations-study",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "unit:01": "tsx src/01-typescript-typecheck-project-basics/index.ts",
+    "unit:02": "tsx src/02-basic-types-inference-nullish/index.ts",
+    "unit:03": "tsx src/03-object-types-type-interface/index.ts",
+    "unit:04": "tsx src/04-function-types-callbacks/index.ts",
+    "unit:05": "tsx src/05-union-narrowing-type-guard/index.ts",
+    "unit:06": "tsx src/06-generics-practical-basics/index.ts",
+    "unit:07": "tsx src/07-type-operators-derived-types/index.ts",
+    "unit:08": "tsx src/08-utility-const-satisfies-assertion/index.ts",
+    "unit:09": "tsx src/09-typed-data-transform/index.ts",
+    "unit:10": "tsx src/10-async-api-json-result/index.ts",
+    "unit:11": "tsx src/11-class-module-declaration-basics/index.ts",
+    "unit:12": "tsx src/12-practical-react-connected-types/index.ts",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.9.1",
+    "eslint": "^10.4.1",
+    "prettier": "^3.8.3",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.60.1"
+  }
+}
